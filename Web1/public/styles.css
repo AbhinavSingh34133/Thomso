@@ -1,0 +1,195 @@
+html{
+    height: 95%;
+}
+
+.atag{
+    color : blueviolet;
+}
+.atag:hover{
+    text-decoration: none;
+    cursor:pointer;
+    color:#ED3D5F;
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+#title{
+    background-image: url("https://whataftercollege.com/wp-content/uploads/2019/03/cover-image-1-1024x535.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color :#ED3D5F;
+    background-blend-mode: multiply
+}
+body{
+    font-family: 'Montserrat';
+    height: 40%;
+    
+}
+h3{
+    font-family: 'Montserrat';
+    font-weight: 900;
+    font-size: medium;
+}
+.icons{
+    margin-top :10%;
+    font-size: 50px;
+    color:#EF8172;
+    
+}
+.carousel-item {
+    padding : 7% 15%;
+}
+.companylogo{
+    width: 15%;
+    margin:40px 20px;
+}
+.icons:hover{
+    color:#ED3D5F;
+}
+.card{
+    text-align: center;
+}
+#nuggets{
+   padding:3% 2%;
+}
+#Fluid{
+    padding : 4% 15%;
+    color:#fff;
+}
+#pricing{
+    position: relative;
+    bottom: 300px;
+    font-family: 'Montserrat';
+    text-align: center;
+    padding:100px;
+}
+button{
+    margin: auto;
+}
+#Heading{
+    font-family: 'Montserrat';
+    font-size:3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+    padding-bottom: 5px;
+}
+#navbar{
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 4.5rem;
+}
+#cntainer{
+    z-index: -1;
+}
+#brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size:2.5rem;
+    font-weight: bold;
+}
+li{
+    font-size : 1.2rem;
+    padding :0 18px;
+    font-family: 'Montserrat';
+    font-weight: lighter;
+}
+#btn1{
+    margin-right: 13px;
+    margin-top :5%;
+}
+#btn2{
+    margin-top:5%;
+
+}
+#doggy{
+    transform : rotate(25deg);
+    z-index: -1;
+}
+#firstr{
+    text-align: center;
+    position: relative;
+    padding : 5% 15%;
+    bottom: 300px;
+    background-color: white;
+    z-index: 1;
+}
+
+.testimonials{
+    position: relative;
+    bottom: 270px;
+    font-family: 'Montserrat';
+    background-color: darkgrey;
+    color :#fff;
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20210810/pngtree-dark-red-abstract-smoke-cloud-dark-color-background-image_759871.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(47, 21, 21);
+ 
+    font-weight: bold;
+    text-align: center;
+    margin-bottom : 30px;
+}
+.testing{
+    width: 10%;
+    border-radius: 100%;
+    margin:20px;
+}
+#footerp{
+    position: relative;
+    bottom: 20px;
+}
+@media only screen and (max-width: 1106px) {
+    #doggy{
+        position:static;
+        transform : rotate(0); 
+        padding-top: 30px;
+    }
+    #firstr{
+        position: relative;
+        top: 300px;
+    }
+    #pricing{
+        position: relative;
+        top: 300px;
+    }
+    #testimonials{
+        position: relative;
+        top: 270px;
+    }
+    #cta{
+        top:270px;
+    }
+    #bottomicons{
+        position: relative;
+        top: 280px;
+    }
+    #footer{
+        position: relative;
+        top: 300px;
+    }
+    h1#Heading{
+        text-align: center;
+    }
+
+}
+.iconsb{
+    position: relative;
+    bottom: 20px;
+    text-align: center;
+}
+.iconb{
+    margin: 0 6px;
+}
+#cta{
+
+    color:#fff;
+    padding-top: 100px;
+    padding-bottom: 160px;
+}
+#btn01{
+    position: relative;
+    right:15px;
+    margin : 30px 0;
+}
+#btn02{
+    position: relative;
+    left:15px;
+    margin : 30px 0;
+}
